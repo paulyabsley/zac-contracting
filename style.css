@@ -1,0 +1,503 @@
+@charset "utf-8";
+
+html,body {
+	background-image:url(images/background.jpg);
+	margin:0px;
+	text-align:center;
+}
+
+div.wrapper {/*This class controls the position of all divs nested within it so they align to the centre of the page*/
+	margin-left:auto;
+	margin-right:auto;
+	width:1000px;
+	text-align:left;
+}
+
+#topBorder {/*This ID creates a gap between the top of the browser and the banner of the site*/
+	height:20px;
+}
+
+#header {/*This ID controls the position of the logo in the header and the background colour*/
+	background-image:url(images/banner.jpg);
+	height:150px;
+}
+
+#menu {/*This ID controls the width and height of the menu bar and its colour*/
+	height:30px;
+	background-color:#000;
+	text-align:center;
+}
+
+a.pics {/*This paragraph class takes the link border away from images in combination with the img CSS below*/
+	border: 0;
+	border-style:none;
+	text-decoration:none;
+}
+
+img {
+	border: 0;
+}
+
+a.menu:link {/*This anchor class defines how links will look for the menu items*/
+	color:#FFF;
+	text-decoration:none;
+	font-family:Cambria;
+	font-size:1em;
+	margin:40px;
+}
+
+a.menu:visited {
+	color:#FFF;
+	text-decoration:none;
+	font-family:Cambria;
+	font-size:1em;
+	margin:40px;
+}
+
+a.menu:hover {
+	color:#CCC;
+	text-decoration:none;
+	font-family:Cambria;
+	font-size:1em;
+	margin:40px;
+}
+
+#content {/*This ID controls the background colour and height of the content pane of the page*/
+	position:relative;
+	background-color:#FFF;
+	height:1100px;
+}
+
+ul {
+	font-family:Calibri, Arial;
+	font-size:0.75em;
+	color:#000;
+	text-align:justify;
+}
+
+div.pageTitle {/*This class controls the look and positioning of the title on each page*/
+	position:absolute;
+	top:50px;
+	left:75px;
+	width:850px;
+	font-family:Cambria;
+	font-size:1.5em;
+	color:#000;
+	text-align:left;
+	border-bottom:1px solid #003366;
+}
+
+div.servicesTitle {/*This class controls the look and positioning of the titles on the Service page*/
+	position:relative;
+	width:550px;
+	height:30px;
+	font-family:Cambria;
+	font-size:1.2em;
+	color:#000;
+	text-align:left;
+	border-bottom:1px solid #003366;
+}
+
+div.portfolioTitle {/*This class controls the look and positioning of the title on the Portfolio page*/
+	position:relative;
+	width:480px;
+	height:30px;
+	font-family:Cambria;
+	font-size:1.2em;
+	color:#000;
+	text-align:left;
+	border-bottom:1px solid #003366;
+}
+
+div.referencesTitle {/*This class controls the look and positioning of the title on the References page*/
+	position:relative;
+	width:550px;
+	height:30px;
+	font-family:Cambria;
+	font-size:1.2em;
+	color:#000;
+	text-align:left;
+	border-bottom:1px solid #003366;
+}
+
+div.addressTitle {/*This class controls the look and positioning of the title on the Contact page*/
+	position:relative;
+	width:200px;
+	height:30px;
+	font-family:Cambria;
+	font-size:1.2em;
+	color:#000;
+	text-align:left;
+	border-bottom:1px solid #003366;
+}
+
+div.contactTitle {/*This class controls the look and positioning of the title on the Contact page*/
+	position:relative;
+	width:400px;
+	height:30px;
+	font-family:Cambria;
+	font-size:1.2em;
+	color:#000;
+	text-align:left;
+	border-bottom:1px solid #003366;
+}
+
+#aboutUs {/*This ID controls the About Us pane on the home page*/
+	background-color:#CCC;
+	width:450px;
+	height:250px;
+	position:absolute;
+	top:100px;
+	left:75px;
+}
+
+div.titleBlack {/*This class controls the navy title bar used on panes like the about us pane on the home page*/
+	background-color:#333;
+	height:30px;
+	font-family:Cambria;
+	font-size:1.0em;
+	color:#FFFFFF;
+	padding-top:10px;
+	padding-left:10px;
+}
+
+#servicesPic {/*This ID controls the size and positioning of the medium sized picture on the home page*/
+	background-image:url(images/01small.jpg);
+	width:370px;
+	height:250px;
+	position:absolute;
+	top:100px;
+	left:555px;
+}
+
+p {
+	font-family:Calibri, Arial;
+	font-size:0.75em;
+	color:#000;
+	text-align:justify;
+	margin:10px 20px 10px 10px;
+}
+
+p.aboutUs {
+	font-family:Calibri, Arial;
+	font-size:0.75em;
+	color:#000;
+	text-align:justify;
+	margin:20px 20px 10px 10px;
+}
+
+p.services {
+	width:500px;
+	margin:20px 20px 30px 10px;
+}
+
+p.adresses {
+	font-size:0.9em;
+	width:500px;
+	margin:20px 20px 30px 10px;
+}
+
+p.portfolio {
+	width:500px;
+	margin:20px 20px 30px 10px;
+	text-align:left;
+}
+
+p.references {
+	width:500px;
+	margin:20px 20px 30px 10px;
+	text-align:left;
+	font-style:italic;
+	font-size:0.9em;
+}
+
+p.centralTextBox {
+	font-family:Calibri, Arial;
+	font-size:0.75em;
+	color:#000;
+	text-align:justify;
+	margin:20px 20px 10px 10px;
+}
+
+h1 {
+	font-family:Cambria;
+	font-size:1.5em;
+	font-weight:normal;
+	color:#000;
+	text-decoration:underline;
+}
+
+#homePicTable1 {/*This ID controls the positioning of the first row of pictures on the Home page*/
+	position:absolute;
+	top:362px;
+	left:62px;
+}
+
+#homePicTable2 {/*This ID controls the positioning of the second row of pictures on the Home page*/
+	position:absolute;
+	top:885px;
+	left:62px;
+}
+
+#column1 {/*This ID controls the size, positioning and colour of the column of bullet points on the Home page*/
+	background-color:#CCC;
+	width:193px;
+	height:300px;
+	position:absolute;
+	top:570px;
+	left:75px;
+}
+
+#column2 {/*This ID controls the size, positioning and colour of the textbox beneath the first row of pictures on the Home page*/
+	background-color:#CCC;
+	width:630px;
+	height:300px;
+	position:absolute;
+	top:570px;
+	left:294px;	
+}
+
+#services {/*This ID controls an invisible bounding box for the services page in which all the content sits*/
+	width:630px;
+	position:absolute;
+	top:100px;
+	left:75px;
+}
+
+#servicesPagePic1 {
+	position:absolute;
+	top:130px;
+	left:645px;
+}
+
+#servicesPagePic2 {
+	position:absolute;
+	top:355px;
+	left:645px;
+}
+
+#servicesPagePic3 {
+	position:absolute;
+	top:575px;
+	left:645px;
+}
+
+#servicesPagePic4 {
+	position:absolute;
+	top:795px;
+	left:645px;
+}
+
+#portfolioContent {/*This ID controls the size and background colour and height of the Portfolio Pages content pane*/
+	position:relative;
+	background-color:#FFF;
+	height:1900px;
+}
+
+#portfolio {/*This ID controls an invisible bounding box for the portfolio page in which all the content sits*/
+	width:630px;
+	position:absolute;
+	top:100px;
+	left:75px;
+}
+
+#portfolio1 {
+	position:absolute;
+	top:50px;
+}
+
+#portfolio2 {
+	position:absolute;
+	top:500px;
+}
+
+#portfolio3 {
+	position:absolute;
+	top:950px;
+}
+
+#portfolio4 {
+	position:absolute;
+	top:1400px;
+}
+
+#portfolioPic1 {
+	position:absolute;
+	top:190px;
+	left:0px;
+}
+
+#portfolioPic2 {
+	position:absolute;
+	top:190px;
+	left:260px;
+}
+
+#portfolioPic3 {
+	position:absolute;
+	top:0px;
+	left:520px;
+}
+
+#references {/*This ID controls an invisible bounding box for the refences page in which all the content sits*/
+	width:630px;
+	position:absolute;
+	top:100px;
+	left:75px;
+}
+
+#referencesPagePic1 {
+	position:absolute;
+	top:150px;
+	left:645px;
+}
+
+#referencesPagePic2 {
+	position:absolute;
+	top:345px;
+	left:645px;
+}
+
+#referencesPagePic3 {
+	position:absolute;
+	top:540px;
+	left:645px;
+}
+
+#referencesPagePic4 {
+	position:absolute;
+	top:735px;
+	left:645px;
+}
+
+#contact {/*This ID controls an invisible bounding box for the contact page in which all the content sits*/
+	width:630px;
+	position:absolute;
+	top:150px;
+	left:75px;
+}
+
+#valencia {
+	position:relative;
+	width:290px;
+	height:175px;
+	border:1px solid #003366;
+	top:50px;
+	left:250px;
+	padding-left:80px;
+	padding-top:30px;
+	padding-bottom:30px
+}
+
+#london {
+	position:relative;
+	width:290px;
+	height:175px;
+	border:1px solid #003366;
+	top:140px;
+	left:0px;
+	padding-left:80px;
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+#barcelona {
+	position:relative;
+	width:290px;
+	height:175px;
+	border:1px solid #003366;
+	top:-97px;
+	left:477px;
+	padding-left:80px;
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+a.contact {/*This anchor class controls the colour and hover underline of links on the contact page*/
+	color:#000;
+	text-decoration:none;
+	font-family:Calibri, Arial;
+	font-size:1em;
+}
+
+a.contact:visited {
+	color:#000;
+	text-decoration:none;
+	font-family:Calibri, Arial;
+	font-size:1em;
+}
+
+a.contact:hover {
+	color:#666;
+	text-decoration:underline;
+	font-family:Calibri, Arial;
+	font-size:1em;
+}
+
+#footer {/*This ID controls the height and background colour of the footer*/
+	height:40px;
+	background-color:#000;
+}
+
+a.footer:link {/*This anchor class defines how links will look inside the footer*/
+	color:#FFF;
+	text-decoration:none;
+	font-family:Calibri, Arial;
+	font-size:1em;
+}
+
+a.footer:visited {
+	color:#FFF;
+	text-decoration:none;
+	font-family:Calibri, Arial;
+	font-size:1em;
+}
+
+a.footer:hover {
+	color:#CCC;
+	text-decoration:underline;
+	font-family:Calibri, Arial;
+	font-size:1em;
+}
+
+p.footer {/*This paragraph class controls the look of the text within the footer*/
+	text-align:center;
+	font-size:0.75em;
+	font-family:Calibri, Arial;
+	color:#FFF;
+	margin:0 0 0 0;
+	padding-top:14px;
+}
+
+#bottomBorder {/*This ID creates a 20 pixel gap between the bottom of the footer and the browser edge*/
+	height:20px;
+}
+
+/*Lightbox - Everything below here is CSS for the Lightbox picture script*/
+#lightbox{	position: absolute;	left: 0; width: 100%; z-index: 100; text-align: center; line-height: 0;}
+#lightbox img{ width: auto; height: auto;}
+#lightbox a img{ border: none; }
+
+#outerImageContainer{ position: relative; background-color: #fff; width: 250px; height: 250px; margin: 0 auto; }
+#imageContainer{ padding: 10px; }
+
+#loading{ position: absolute; top: 40%; left: 0%; height: 25%; width: 100%; text-align: center; line-height: 0; }
+#hoverNav{ position: absolute; top: 0; left: 0; height: 100%; width: 100%; z-index: 10; }
+#imageContainer>#hoverNav{ left: 0;}
+#hoverNav a{ outline: none;}
+
+#prevLink, #nextLink{ width: 49%; height: 100%; background-image: url(data:image/gif;base64,AAAA); /* Trick IE into showing hover */ display: block; }
+#prevLink { left: 0; float: left;}
+#nextLink { right: 0; float: right;}
+#prevLink:hover, #prevLink:visited:hover { background: url(images/lightbox/prevlabel.gif) left 15% no-repeat; }
+#nextLink:hover, #nextLink:visited:hover { background: url(images/lightbox/nextlabel.gif) right 15% no-repeat; }
+
+#imageDataContainer{ font: 10px Verdana, Helvetica, sans-serif; background-color: #fff; margin: 0 auto; line-height: 1.4em; overflow: auto; width: 100%	; }
+
+#imageData{	padding:0 10px; color: #666; }
+#imageData #imageDetails{ width: 70%; float: left; text-align: left; }	
+#imageData #caption{ font-weight: bold;	}
+#imageData #numberDisplay{ display: block; clear: left; padding-bottom: 1.0em;	}			
+#imageData #bottomNavClose{ width: 66px; float: right;  padding-bottom: 0.7em; outline: none;}	 	
+
+#overlay{ position: absolute; top: 0; left: 0; z-index: 90; width: 100%; height: 500px; background-color: #000; }
